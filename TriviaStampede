@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Trivia Stampede</title>
+
+
+  <!-- Bungee Google Font -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+
+  <style>
+
+    :root {
+
+      --teal: #008080;
+
+      --coral: #FF6F61;
+
+      --white: #ffffff;
+
+      --light: #f0f0f0;
+
+    }
+
+
+    body {
+
+      margin: 0;
+
+      font-family: Arial, sans-serif;
+
+      background-color: var(--teal);
+
+      color: var(--light);
+
+      scroll-behavior: smooth;
+
+    }
+
+
+    header, section, footer {
+
+      padding: 60px 20px;
+
+      text-align: center;
+
+    }
+
+
+    header {
+
+      background-color: var(--teal);
+
+    }
+
+
+    nav {
+
+      position: sticky;
+
+      top: 0;
+
+      background-color: var(--coral);
+
+      padding: 10px;
+
+      z-index: 1000;
+
+    }
+
+
+    nav a {
+
+      color: white;
+
+      margin: 0 15px;
+
+      text-decoration: none;
+
+      font-weight: bold;
+
+    }
+
+
+    h1, h2 {
+
+      font-family: 'Bungee', sans-serif;
+
+      color: var(--white);
+
+      letter-spacing: 1px;
+
+    }
+
+
+    .cta-button {
+
+      background-color: var(--coral);
+
+      color: white;
+
+      border: none;
+
+      padding: 12px 24px;
+
+      font-size: 1em;
+
+      border-radius: 5px;
+
+      cursor: pointer;
+
+      margin-top: 20px;
+
+    }
+
+
+    .cta-button:hover {
+
+      opacity: 0.9;
+
+    }
+
+
+    section:nth-child(even) {
+
+      background-color: rgba(255, 255, 255, 0.05);
+
+    }
+
+
+    footer {
+
+      background-color: #005f5f;
+
+      font-size: 0.9em;
+
+    }
+
+
+    a {
+
+      color: var(--light);
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+
+  <nav>
+
+    <a href="#about">About</a>
+
+    <a href="#how">How It Works</a>
+
+    <a href="#why">Why Trivia?</a>
+
+    <a href="#details">What You Get</a>
+
+    <a href="#contact">Contact</a>
+
+  </nav>
+
+
+  <header>
+
+    <!-- Replace with your logo path -->
+
+    <img src="trivia-stampede-logo.png" alt="Trivia Stampede Logo" width="200" />
+
+    <h1>Trivia Stampede</h1>
+
+    <p>Bring the stampede to your tables. Weekly trivia made easy.</p>
+
+    <button class="cta-button" onclick="document.getElementById('contact').scrollIntoView()">Get Started</button>
+
+  </header>
+
+
+  <section id="about">
+
+    <h2>What Is Trivia Stampede?</h2>
+
+    <p>Trivia Stampede helps restaurants boost foot traffic and customer engagement by providing ready-to-run trivia nights. You get questions. You get fun. You get customers.</p>
+
+  </section>
+
+
+  <section id="how">
+
+    <h2>How It Works</h2>
+
+    <p>1. Contact us<br>2. We send curated trivia sets<br>3. You host and shine</p>
+
+  </section>
+
+
+  <section id="why">
+
+    <h2>Why Add Trivia Nights?</h2>
+
+    <p>🎉 Increase repeat visits<br>💡 Attract new patrons<br>🍽️ Boost food & drink sales on slow nights</p>
+
+  </section>
+
+
+  <section id="details">
+
+    <h2>What You Get</h2>
+
+    <p>✅ Weekly question sets<br>✅ Themed nights (movies, music, pop culture, etc.)<br>✅ Tie-breakers and fun formats<br>✅ Easy-to-follow hosting guide</p>
+
+  </section>
+
+
+  <section id="contact">
+
+    <h2>Get In Touch</h2>
+
+    <p>Email: <a href="mailto:you@example.com">you@example.com</a><br>Phone: (555) 123-4567</p>
+
+    <button class="cta-button">Send Me a Sample Set</button>
+
+  </section>
+
+
+  <footer>
+
+    &copy; 2025 Trivia Stampede. All rights reserved.
+
+  </footer>
+
+
+</body>
+
+</html>
